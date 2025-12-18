@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 
 # Load image
-img = cv2.imread("third.jpg")
+img = cv2.imread("img.jpg")
 
 if img is None:
     print("Image not found")
@@ -40,3 +40,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 print("END OF THE PROGRAM!")
+
